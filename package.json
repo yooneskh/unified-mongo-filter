@@ -1,0 +1,33 @@
+{
+  "name": "unified-mongo-filter",
+  "version": "0.3.0",
+  "description": "Apply mongo like filter to javascript objects",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yooneskh/unified-mongo-filter.git"
+  },
+  "keywords": [
+    "javascript",
+    "mongo",
+    "filter",
+    "object"
+  ],
+  "author": "Yoones Khoshghadam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yooneskh/unified-mongo-filter/issues"
+  },
+  "homepage": "https://github.com/yooneskh/unified-mongo-filter",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
