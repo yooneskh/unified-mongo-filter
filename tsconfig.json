@@ -2,11 +2,18 @@
   "compilerOptions": {
     "target": "es2017",
     "lib": ["es2021", "dom"],
-    "module": "commonjs",
+    "module": "ES2020",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./lib/esm",
     "strict": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
 }
