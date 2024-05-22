@@ -1,3 +1,5 @@
+// deno-lint-ignore-file no-explicit-any
+
 
 function getAttribute(obj: any, key: any) {
 
